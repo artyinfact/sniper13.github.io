@@ -57,18 +57,20 @@
 
 
 
-<meta name="description" content="#&amp;#x7B2C;2&amp;#x7AE0; &amp;#x6A21;&amp;#x578B;&amp;#x8BC4;&amp;#x4F30;&amp;#x548C;&amp;#x9009;&amp;#x62E9;
-&amp;#x76EE;&amp;#x5F55;
+<meta name="description" content="&amp;#x76EE;&amp;#x5F55;
 2 &amp;#x6A21;&amp;#x578B;&amp;#x8BC4;&amp;#x4F30;&amp;#x548C;&amp;#x9009;&amp;#x62E9;  
-2.1 &amp;#x7ECF;&amp;#x9A8C;&amp;#x8BEF;&amp;#x5DEE;&amp;#x548C;&amp;#">
+2.1 &amp;#x7ECF;&amp;#x9A8C;&amp;#x8BEF;&amp;#x5DEE;&amp;#x548C;&amp;#x8FC7;&amp;#x62DF;&amp;#x5408;   
+2.2 &amp;#x8BC4;&amp;#x4F30;&amp;#x65B9;&amp;#x6CD5;   
+2.2.1&amp;#x75">
 <meta property="og:type" content="article">
 <meta property="og:title" content="第2章 模型评估和选择">
 <meta property="og:url" content="http://yoursite.com/2016/02/19/Chapter-2/index.html">
 <meta property="og:site_name" content="Jerry Gao's Blog">
-<meta property="og:description" content="#&amp;#x7B2C;2&amp;#x7AE0; &amp;#x6A21;&amp;#x578B;&amp;#x8BC4;&amp;#x4F30;&amp;#x548C;&amp;#x9009;&amp;#x62E9;
-&amp;#x76EE;&amp;#x5F55;
+<meta property="og:description" content="&amp;#x76EE;&amp;#x5F55;
 2 &amp;#x6A21;&amp;#x578B;&amp;#x8BC4;&amp;#x4F30;&amp;#x548C;&amp;#x9009;&amp;#x62E9;  
-2.1 &amp;#x7ECF;&amp;#x9A8C;&amp;#x8BEF;&amp;#x5DEE;&amp;#x548C;&amp;#">
+2.1 &amp;#x7ECF;&amp;#x9A8C;&amp;#x8BEF;&amp;#x5DEE;&amp;#x548C;&amp;#x8FC7;&amp;#x62DF;&amp;#x5408;   
+2.2 &amp;#x8BC4;&amp;#x4F30;&amp;#x65B9;&amp;#x6CD5;   
+2.2.1&amp;#x75">
 <meta property="og:image" content="http://yoursite.com/2016/02/19/Chapter-2/underfitting-vs-overfitting.jpg">
 <meta property="og:image" content="http://yoursite.com/2016/02/19/Chapter-2/train-test.png">
 <meta property="og:image" content="http://yoursite.com/2016/02/19/Chapter-2/train-cv2.png">
@@ -87,13 +89,14 @@
 <meta property="og:image" content="http://yoursite.com/2016/02/19/Chapter-2/norm.png">
 <meta property="og:image" content="http://yoursite.com/2016/02/19/Chapter-2/Friedman-Test-Graph.png">
 <meta property="og:image" content="http://yoursite.com/2016/02/19/Chapter-2/complexity-error-plot.png">
-<meta property="og:updated_time" content="2016-02-19T11:04:13.181Z">
+<meta property="og:updated_time" content="2016-02-19T12:50:28.180Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="第2章 模型评估和选择">
-<meta name="twitter:description" content="#&amp;#x7B2C;2&amp;#x7AE0; &amp;#x6A21;&amp;#x578B;&amp;#x8BC4;&amp;#x4F30;&amp;#x548C;&amp;#x9009;&amp;#x62E9;
-&amp;#x76EE;&amp;#x5F55;
+<meta name="twitter:description" content="&amp;#x76EE;&amp;#x5F55;
 2 &amp;#x6A21;&amp;#x578B;&amp;#x8BC4;&amp;#x4F30;&amp;#x548C;&amp;#x9009;&amp;#x62E9;  
-2.1 &amp;#x7ECF;&amp;#x9A8C;&amp;#x8BEF;&amp;#x5DEE;&amp;#x548C;&amp;#">
+2.1 &amp;#x7ECF;&amp;#x9A8C;&amp;#x8BEF;&amp;#x5DEE;&amp;#x548C;&amp;#x8FC7;&amp;#x62DF;&amp;#x5408;   
+2.2 &amp;#x8BC4;&amp;#x4F30;&amp;#x65B9;&amp;#x6CD5;   
+2.2.1&amp;#x75">
 
 
 
@@ -269,8 +272,7 @@
       
 
       
-        <p>#&#x7B2C;2&#x7AE0; &#x6A21;&#x578B;&#x8BC4;&#x4F30;&#x548C;&#x9009;&#x62E9;</p>
-<h1 id="&#x76EE;&#x5F55;"><a href="#&#x76EE;&#x5F55;" class="headerlink" title="&#x76EE;&#x5F55;"></a>&#x76EE;&#x5F55;</h1><ul>
+        <h1 id="&#x76EE;&#x5F55;"><a href="#&#x76EE;&#x5F55;" class="headerlink" title="&#x76EE;&#x5F55;"></a>&#x76EE;&#x5F55;</h1><ul>
 <li>2 <a href="#&#x7B2C;2&#x7AE0;-&#x6A21;&#x578B;&#x8BC4;&#x4F30;&#x548C;&#x9009;&#x62E9;">&#x6A21;&#x578B;&#x8BC4;&#x4F30;&#x548C;&#x9009;&#x62E9;</a>  <ul>
 <li>2.1 <a href="#2.1-&#x7ECF;&#x9A8C;&#x8BEF;&#x5DEE;&#x548C;&#x8FC7;&#x62DF;&#x5408;">&#x7ECF;&#x9A8C;&#x8BEF;&#x5DEE;&#x548C;&#x8FC7;&#x62DF;&#x5408;</a>   </li>
 <li>2.2 <a href="#2.2-&#x8BC4;&#x4F30;&#x65B9;&#x6CD5;">&#x8BC4;&#x4F30;&#x65B9;&#x6CD5;</a>   <ul>
